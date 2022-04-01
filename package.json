@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "yarn keystone dev"
+    "dev": "yarn keystone dev",
+    "start": "yarn keystone build && yarn keystone start"
   },
   "license": "MIT",
   "dependencies": {
