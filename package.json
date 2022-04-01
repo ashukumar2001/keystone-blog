@@ -2,6 +2,9 @@
   "name": "keystone-example",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "yarn keystone dev"
+  },
   "license": "MIT",
   "dependencies": {
     "@keystone-6/core": "^1.1.0",
