@@ -4,7 +4,7 @@ import { insertSeedData } from "./seed-data/index";
 
 export default config({
   db: {
-    provider: "sqlite",
+    provider: "postgresql",
     url: process.env.DATABASE_URL || "file:./keystone-example.db",
     async onConnect(context) {
       if (process.argv.includes("--seed-data")) {
